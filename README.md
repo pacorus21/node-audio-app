@@ -1,6 +1,7 @@
-# Audio app
+# AUDIO WEB APP
 
-Web application to upload audio files (with __nodejs__ & __express__) *On development stage*.
+__Nodejs__ & __Express__ web application to upload and play audio files.
+*On development stage*.
 
 ## Instalation
 
@@ -19,6 +20,6 @@ npm run start
 
 ### Folder Structure
 
-* __source__: contains the app code (entry: index.js, routes and controllers).
-* __static__: static web files (CSS, JS and UPLOADS directory).
-* __views__: handlebars view files (contains HTML structure).
+* __SOURCE__: contains the code (index.js, routes and controllers).
+* __STATIC__: static web files (CSS, JS and UPLOADS directory).
+* __VIEWS__: handlebars view files (contains HTML structure).
