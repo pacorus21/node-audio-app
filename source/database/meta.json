@@ -1,0 +1,16 @@
+{
+    "tracks": [
+        {
+            "THIS IS JUST AN EXAMPLE": "..."
+            ,
+            "title": "title",
+            "description": "description",
+            "url": "/static/uploads/tracks/{{id}}",
+            "tags": [],
+            "settings": {
+                "public": true,
+                "allowDownload": true
+            }
+        }
+    ]
+}

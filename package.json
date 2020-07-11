@@ -1,0 +1,28 @@
+{
+  "name": "node-audio-app",
+  "version": "1.0.0",
+  "description": "Web application to upload audio files",
+  "main": "source/index.js",
+  "scripts": {
+    "start": "node source/",
+    "dev": "nodemon source/"
+  },
+  "keywords": [],
+  "author": "Paco Rus",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pacorus21/node-audio-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pacorus21/node-audio-app/issues"
+  },
+  "homepage": "https://github.com/pacorus21/node-audio-app#readme"
+}
