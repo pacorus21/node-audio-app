@@ -7,15 +7,23 @@
     <title>Node Audio App</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="/static/css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="/static/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
 
     <!-- JS -->
-    <script src="/static/js/main.js" defer></script>
+    <script src="/js/main.js" defer></script>
 </head>
 
 <body>
-    {{{ body }}}
+    <header>
+        {{> header }}
+    </header>
+    <nav>
+        {{> nav }}
+    </nav>
+    <main>
+        {{{ body }}}
+    </main>
 </body>
 
 </html>
