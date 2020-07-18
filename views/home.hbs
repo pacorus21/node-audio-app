@@ -1,11 +1,7 @@
-<aside style="float: right">
-    <h2 class="dark">Upload New Track</h2>
-    <div class="body">
-        Here The Form.
-    </div>
-</aside>
-
-<h2 class="dark">Lastest Tracks</h2>
+<h2 class="dark">Upload New Track</h2>
 <div class="body">
-    Here The Lastest Tracks.
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <button type="submit">Upload</button>
+    </form>
 </div>

@@ -17,9 +17,13 @@ npm run start
 
 * [__express__](https://github.com/expressjs/express) as web framework.
 * [__express-handlebars__](https://github.com/ericf/express-handlebars) as view engine.
+* [__multer__](https://github.com/expressjs/multer) as file data handler.
 
 ### Folder Structure
 
 * __SOURCE__: contains the code (index.js, routes and controllers).
 * __STATIC__: static web files (CSS, JS and UPLOADS directory).
 * __VIEWS__: handlebars view files (contains HTML structure).
+
+### Snapshot
+![Snapshot](https://github.com/pacorus21/node-audio-app/tree/master/info/capture.jpg "Screen capture")
