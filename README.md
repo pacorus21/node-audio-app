@@ -3,7 +3,7 @@
 __Nodejs__ & __Express__ web application to upload and play audio files.
 *On development stage*.
 
-## Instalation
+## Installation
 
 ```
 git clone https://github.com/pacorus21/node-audio-app.git
