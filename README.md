@@ -26,4 +26,4 @@ npm run start
 * __VIEWS__: handlebars view files (contains HTML structure).
 
 ### Snapshot
-![Snapshot](https://github.com/pacorus21/node-audio-app/tree/master/info/capture.jpg "Screen capture")
+![Snapshot](https://raw.githubusercontent.com/pacorus21/node-audio-app/master/info/capture.jpg "Screen capture")
