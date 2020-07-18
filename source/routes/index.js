@@ -12,4 +12,7 @@ router.get('/home', (req, res) => home.index(req, res));
 // Track Page
 router.get('/track', (req, res) => track.index(req, res));
 
+// Upload Track
+router.post('/upload', (req, res) => track.upload(req, res));
+
 module.exports = router;

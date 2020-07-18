@@ -1,0 +1,82 @@
+html, body {
+    /* fit */
+    height: 100%;
+}
+
+body {
+    /* font */
+    font-family: Calibri, sans-serif;
+    font-variant: small-caps;
+    font-size: large;
+    /* colors */
+    color: #EEE;
+    background-color: #444;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    /* colors */
+    color: #EEE;
+    background-color: #222;
+}
+
+#logo {
+    /* margin */
+    padding: 10px 15px;
+    /* size */
+    height: 70px;
+    width: 70px;
+}
+
+nav {
+    display: flex;
+    padding-left: 15px;
+    background-color: #4A86E8;
+    border-top: 3px solid #111;
+    border-bottom: 2px solid #111;
+    box-shadow: 0 1px 2px #222;
+}
+
+.nav-item {
+    /* text */
+    font-variant: small-caps;
+    text-decoration: none;
+    display: inline-block;
+    /* margin */
+    padding: 7px;
+    min-width: 90px;
+    /* colors */
+    color: #222;
+    background-color: #4A86E8;
+}
+
+.nav-item:hover {
+    /* colors */
+    color: #EEE;
+    background-color: #222;
+}
+
+main {
+    /* margin */
+    padding: 5px;
+    margin: 20px 20px auto;
+    min-height: calc(60%);
+    /* colors */
+    color: #222;
+    background-color: #EEE;
+    box-shadow: 2px 2px 2px #222;
+}
+
+main .body {
+    padding: 15px;
+}
+
+.dark {
+    /* margins */
+    margin: 0 auto;
+    padding: 8px;
+    /* colors */
+    color: #EEE;
+    background-color: #222;
+}
